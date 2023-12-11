@@ -12,7 +12,7 @@ body {
 /* Estilos para la navbar */
 .navbar {
   background-color: #4699e7;
-  color: #000000;
+  color: #ffffff;
 }
 
 .navbar-brand {
@@ -38,9 +38,20 @@ body {
 
 /* Estilos para cartwidget */
 .cart-widget {
-  position: relative;
-  cursor: pointer;
-  margin-left: auto;
+  position: absolute;
+  right: 20px; /* Ajusta la posición a la derecha según tu diseño */
+  top: 5px; /* Ajusta la posición vertical según tu diseño */
+  display: flex;
+  align-items: flex-start; /* Alinea el número arriba del carrito */
+}
+
+.notification-badge {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 50%;
+  padding: 3px 6px; /* Ajusta el padding para reducir el espacio vertical */
+  font-size: 1rem;
+  margin-left: 2px;
 }
 
 .bi-cart {
@@ -63,7 +74,6 @@ body {
 .card {
   border: 1px solid #dee2e6;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
