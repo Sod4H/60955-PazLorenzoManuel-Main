@@ -39,17 +39,17 @@ body {
 /* Estilos para cartwidget */
 .cart-widget {
   position: absolute;
-  right: 20px; /* Ajusta la posición a la derecha según tu diseño */
-  top: 5px; /* Ajusta la posición vertical según tu diseño */
+  right: 20px; 
+  top: 5px; 
   display: flex;
-  align-items: flex-start; /* Alinea el número arriba del carrito */
+  align-items: flex-start; 
 }
 
 .notification-badge {
   background-color: #dc3545;
   color: #fff;
   border-radius: 50%;
-  padding: 3px 6px; /* Ajusta el padding para reducir el espacio vertical */
+  padding: 3px 6px; 
   font-size: 1rem;
   margin-left: 2px;
 }

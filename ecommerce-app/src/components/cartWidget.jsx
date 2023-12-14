@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const CartWidget = () => {
-  const hardcodedItemCount = 5; // Cambia este valor según tus necesidades
+  const hardcodedItemCount = 5; 
 
   return (
     <div className="cart-widget">
